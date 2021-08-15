@@ -41,7 +41,7 @@ describe('lib/bump-version.js', () => {
       new BumpVersion(FILE_PATHS.INVALID_DATA);
     } catch (err) {
       expect(err.message).to.be.equals(
-        `Unable to parse file ${FILE_PATHS.INVALID}`
+        `Unable to parse file ${FILE_PATHS.INVALID_DATA}`
       );
     }
   });
