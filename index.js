@@ -1,10 +1,23 @@
-// Initial Function Here
-// This will be entry point of the library
+#!/usr/bin/env node
 
-const dummy = () => {
-    // Your code here
-}
+'use strict';
 
 
-// Export the functions
-module.exports = dummp;
+const BumpVersion = require('./bump-version');
+
+
+const FILE_PATH = `${process.cwd()}/package.json`;
+
+
+const bumpVersion = () => {
+
+  const bumpVersion = new BumpVersion(FILE_PATH);
+
+  bumpVersion.upgradeVersion();
+  bumpVersion.writeFile();
+
+  console.log('✔', `Version bumped to v${bumpVersion.getVersion()}`);
+};
+
+
+bumpVersion();

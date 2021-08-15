@@ -1,5 +1,7 @@
 # npm-bump-version
 
+[![Node CI](https://github.com/arshadkazmi42/npm-bump-version/actions/workflows/nodejs.yml/badge.svg)](https://github.com/arshadkazmi42/npm-bump-version/actions/workflows/nodejs.yml)
+
 Bump your npm module version by 0.0.1 and update in github repository
 
 ## Install
@@ -12,8 +14,8 @@ npm install npm-bump-version
 
 ```bash
 
-$ bump-version {{MODULE_PATH}}
-
+$ npm-bump
+✔ Version bumped to v1.0.2
 ```
 
 ## Contributing
