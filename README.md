@@ -12,8 +12,8 @@ npm install npm-bump-version
 
 ```bash
 
-$ bump-version {{MODULE_PATH}}
-
+$ npm-bump
+✔ Version bumped to v1.0.2
 ```
 
 ## Contributing
