@@ -1,6 +1,6 @@
 {
   "name": "npm-bump-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bump npm version by 0.0.1",
   "main": "index.js",
   "bin": {
@@ -13,7 +13,7 @@
   },
   "files": [
     "index.js",
-    "lib/bump-version.js"
+    "bump-version.js"
   ],
   "repository": {
     "type": "git",
