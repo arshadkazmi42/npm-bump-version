@@ -13,7 +13,7 @@ Bump your npm module version by 0.0.1 and update in github repository
 ## Install
 
 ```
-npm install npm-bump-version
+npm install npm-bump-version -g
 ```
 
 ## Usage
